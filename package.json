@@ -1,0 +1,27 @@
+{
+  "name": "playertrackingnewplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhon/playerTrackingNewPlayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomhon/playerTrackingNewPlayer/issues"
+  },
+  "homepage": "https://github.com/tomhon/playerTrackingNewPlayer#readme",
+  "dependencies": {
+    "restify": "^7.7.0",
+    "sequelize": "^4.42.0",
+    "tedious": "^4.1.3"
+  }
+}
