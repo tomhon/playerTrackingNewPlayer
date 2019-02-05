@@ -39,7 +39,11 @@ function processPlayerTrackingUpdate(res, query) //query.event defines what to d
         gameId: query.gameId,
         gameStartTime: query.gameStartTime,
         gameLocation: query.gameLocation,
-        gameField: query.gameField
+        gameField: query.gameField,
+        gameAwayClub: query.gameAwayClub,
+        gameAwayTeam:query.gameAwayTeam,
+        gameHomeClub:query.gameHomeClub,
+        gameHomeTeam:query.gameHomeTeam
         }).then(gameTrackingRow => {
         res.send('New Player added to Game '+ gameTrackingRow.gameId + ' with playerGameId '+ gameTrackingRow.playerGameId);
         console.log('New Player added to Game '+ gameTrackingRow.gameId + ' with playerGameId '+ gameTrackingRow.playerGameId);
